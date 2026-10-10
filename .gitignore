@@ -1,0 +1,15 @@
+# Data, logs and trained models are large; keep them out of git
+data/
+train/
+test/
+logs/
+models/
+*.keras
+*.h5
+*.npy
+*.csv
+__pycache__/
+.ipynb_checkpoints/
+
+# Original exploratory notebook (kept locally only)
+End_to_End_DL*.ipynb
