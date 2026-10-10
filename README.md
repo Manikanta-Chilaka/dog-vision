@@ -1,5 +1,7 @@
 # 🐶 Dog Vision — End-to-End Dog Breed Classification with Transfer Learning
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Manikanta-Chilaka/dog-vision/blob/main/dog_vision.ipynb)
+
 A deep learning project that identifies the **breed of a dog from a photo**, choosing from **120 breeds**.
 It covers the full machine learning workflow: exploring raw images, building a `tf.data` input pipeline, transfer learning with **ResNet101V2**, evaluation, training on the full dataset, predictions for the 10,357-image test set in Kaggle submission format, and a **Gradio web demo**.
 
